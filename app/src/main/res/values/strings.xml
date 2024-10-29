@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">Tres_en_raya</string>
+    <string name="lblTourn">Turn:</string>
+    <string name="btnStart">START</string>
+    <string name="btnNames">NAMES</string>
+    <string name="dialogStartTitle">New game</string>
+    <string name="dialogStartMessage">Do you want to start new game?</string>
+    <string name="dialogStartPositive">Yes</string>
+    <string name="dialogStartNegative">No</string>
+
+    <string name="dialogNamesTitle">Player names</string>
+    <string name="dialogNames1Hint">Player name #1</string>
+    <string name="dialogNames2Hint">Player name #2</string>
+    <string name="dialogNamesNegative">Cancel</string>
+    <string name="dialogNamesPositive">Save</string>
+
+    <string name="txtX" translatable="false">X</string>
+    <string name="txtO" translatable="false">O</string>
+
+    <string name="win" >WIN</string>
+
+    <string name="emptyName1" >RED</string>
+    <string name="emptyName2" >BLUE</string>
+</resources>

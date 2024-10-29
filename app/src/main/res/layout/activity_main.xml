@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:columnCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3">
+
+        <Button
+            android:id="@+id/btn00"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn20"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="@dimen/dimenButtons"
+            android:layout_height="@dimen/dimenButtons"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/btnsStart"
+            app:cornerRadius="@dimen/cornerRadiusButtons" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/lblTourn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/lblTourn"
+        android:textColor="@color/btnsStart"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTourn">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btnStart"
+            android:text="@string/btnStart"
+            app:cornerRadius="5dp" />
+
+        <Button
+            android:id="@+id/btnNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btnNames"
+            android:text="@string/btnNames"
+            app:cornerRadius="5dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

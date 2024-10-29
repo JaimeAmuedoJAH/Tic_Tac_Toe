@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tres_en_raya</string>
+    <string name="lblTourn">Turno:</string>
+    <string name="btnStart">EMPEZAR</string>
+    <string name="btnNames">NOMBRES</string>
+    <string name="dialogStartTitle">Nueva partida</string>
+    <string name="dialogNamesTitle">Nombre de los jugadores</string>
+    <string name="dialogNames1Hint">Nombre jugador #1</string>
+    <string name="dialogStartMessage">¿Quieres empezar una nueva partida?</string>
+    <string name="dialogNames2Hint">Nombre jugador #2</string>
+    <string name="dialogStartPositive">Si</string>
+    <string name="dialogStartNegative">No</string>
+    <string name="dialogNamesNegative">Cancelar</string>
+    <string name="dialogNamesPositive">Guardar</string>
+    <string name="win">GANA</string>
+    <string name="emptyName1">ROJO</string>
+    <string name="emptyName2">AZUL</string>
+</resources>
